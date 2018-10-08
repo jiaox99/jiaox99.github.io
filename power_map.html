@@ -1,15 +1,8 @@
 ---
+layout: default
 ---
-<!doctype html>
-<html lang="zh-CN">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
-  </head>
-  <body style="align-content: center">
-        <h2>评分标准</h2>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+<h2>评分标准</h2>
         <ul>
             <li>1分 入门，可以参照已有代码，通过复制、粘贴，实现简单功能</li>
             <li>2分 初级，可以在没有参照代码的条件下实现简单功能</li>
@@ -17,43 +10,41 @@
             <li>4分 高级，可以独自搭建项目结构</li>
             <li>5分 专家，熟悉上下游流程环境，可以灵活运用及开发各种辅助工具，可以对性能问题负责</li>
         </ul>
-        <h2>编程语言</h2>
-        <canvas id='codeLanguage' width="600"  height="600"></canvas>
-        <h2>引擎和框架</h2>
-        <canvas id='engineAndFramework' width="600"  height="600"></canvas>
-        <h2>理论</h2>
-        <canvas id='theory' width="600"  height="600"></canvas>
-        <script type="text/javascript">
-            var httpRequest = new XMLHttpRequest();
-            httpRequest.onreadystatechange = function()
-            {
-                if (httpRequest.readyState==4 && httpRequest.status==200)
-                {
-                    var jsonData = JSON.parse(httpRequest.responseText);
-                    var ctx = document.getElementById("codeLanguage").getContext('2d');;
-                    var myRadarChart = new Chart(ctx, {
-                        type: 'radar',
-                        data: jsonData.codeLanguage.data,
-                        options: jsonData.codeLanguage.options
-                    });
+<h2>编程语言</h2>
+<canvas id='codeLanguage' width="600"  height="600"></canvas>
+<h2>引擎和框架</h2>
+<canvas id='engineAndFramework' width="600"  height="600"></canvas>
+<h2>理论</h2>
+<canvas id='theory' width="600"  height="600"></canvas>
+<script type="text/javascript">
+    var httpRequest = new XMLHttpRequest();
+    httpRequest.onreadystatechange = function()
+    {
+        if (httpRequest.readyState==4 && httpRequest.status==200)
+        {
+            var jsonData = JSON.parse(httpRequest.responseText);
+            var ctx = document.getElementById("codeLanguage").getContext('2d');;
+            var myRadarChart = new Chart(ctx, {
+                type: 'radar',
+                data: jsonData.codeLanguage.data,
+                options: jsonData.codeLanguage.options
+            });
 
-                    ctx = document.getElementById("engineAndFramework").getContext('2d');;
-                    myRadarChart = new Chart(ctx, {
-                        type: 'radar',
-                        data: jsonData.engineAndFramework.data,
-                        options: jsonData.engineAndFramework.options
-                    });
+            ctx = document.getElementById("engineAndFramework").getContext('2d');;
+            myRadarChart = new Chart(ctx, {
+                type: 'radar',
+                data: jsonData.engineAndFramework.data,
+                options: jsonData.engineAndFramework.options
+            });
 
-                    ctx = document.getElementById("theory").getContext('2d');;
-                    myRadarChart = new Chart(ctx, {
-                        type: 'radar',
-                        data: jsonData.theory.data,
-                        options: jsonData.theory.options
-                    });
-                }
-            }
-            httpRequest.open("GET", "assets/json/power_map.json", true);
-            httpRequest.send();
-        </script>
-  </body>
-</html>
+            ctx = document.getElementById("theory").getContext('2d');;
+            myRadarChart = new Chart(ctx, {
+                type: 'radar',
+                data: jsonData.theory.data,
+                options: jsonData.theory.options
+            });
+        }
+    }
+    httpRequest.open("GET", "assets/json/power_map.json", true);
+    httpRequest.send();
+</script>
