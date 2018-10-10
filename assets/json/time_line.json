@@ -2,7 +2,7 @@
     "events": [
         {
             "text": {
-                "text": "参与开发《FIFA Oline 4 M》"
+                "headline": "参与开发《FIFA Oline 4 M》"
             },
             "start_date": {
                 "year": "2018",
@@ -11,7 +11,7 @@
         },
         {
             "text": {
-                "text": "参与开发《FIFA Oline 4》"
+                "headline": "参与开发《FIFA Oline 4》"
             },
             "start_date": {
                 "year": "2017",
@@ -20,7 +20,7 @@
         },
         {
             "text": {
-                "text": "入职上海宝开"
+                "headline": "入职上海宝开"
             },
             "start_date": {
                 "year": "2017",
@@ -29,7 +29,7 @@
         },
         {
             "text": {
-                "text": "参与开发《Crazy Planet》"
+                "headline": "参与开发《Crazy Planet》"
             },
             "start_date": {
                 "year": "2016",
@@ -38,7 +38,7 @@
         },
         {
             "text": {
-                "text": "开始自学 UE4"
+                "headline": "开始自学 UE4"
             },
             "start_date": {
                 "year": "2015",
@@ -47,7 +47,7 @@
         },
         {
             "text": {
-                "text": "参与开发《Vikinges Age》"
+                "headline": "参与开发《Vikinges Age》"
             },
             "start_date": {
                 "year": "2015",
@@ -56,7 +56,7 @@
         },
         {
             "text": {
-                "text": "开始自学 Unity 3D"
+                "headline": "开始自学 Unity 3D"
             },
             "start_date": {
                 "year": "2014",
@@ -65,7 +65,7 @@
         },
         {
             "text": {
-                "text": "参与开发《The King Of Tower》"
+                "headline": "参与开发《The King Of Tower》"
             },
             "start_date": {
                 "year": "2013",
@@ -74,7 +74,7 @@
         },
         {
             "text": {
-                "text": "入职上海炫踪网络"
+                "headline": "入职上海炫踪网络"
             },
             "start_date": {
                 "year": "2012",
@@ -83,7 +83,7 @@
         },
         {
             "text": {
-                "text": "自学 Python"
+                "headline": "自学 Python"
             },
             "start_date": {
                 "year": "2012",
@@ -92,7 +92,10 @@
         },
         {
             "text": {
-                "text": "参与开发《诸仙列传》"
+                "headline": "参与开发《诸仙列传》"
+            },
+            "background": {
+                "url": "http://img.kuai8.com/attaches/news/image/20130911/20130911110621_49573.jpg"
             },
             "start_date": {
                 "year": "2012",
@@ -101,7 +104,10 @@
         },
         {
             "text": {
-                "text": "参与开发《梦幻物语》"
+                "headline": "参与开发《梦幻物语》"
+            },
+            "background":{
+                "url":"http://i1.073img.com/110815/4162923_111703_1.jpg"
             },
             "start_date": {
                 "year": "2011",
@@ -110,7 +116,7 @@
         },
         {
             "text": {
-                "text": "入职苏州蕴衡网络"
+                "headline": "入职苏州蕴衡网络"
             },
             "start_date": {
                 "year": "2011",
@@ -119,7 +125,7 @@
         },
         {
             "text": {
-                "text": "自学 AS3"
+                "headline": "自学 AS3"
             },
             "start_date": {
                 "year": "2011",
@@ -128,7 +134,7 @@
         },
         {
             "text": {
-                "text": "开发 MFC 游戏《俄罗斯方块》"
+                "headline": "开发 MFC 游戏《俄罗斯方块》"
             },
             "start_date": {
                 "year": "2010",
@@ -137,7 +143,7 @@
         },
         {
             "text": {
-                "text": "学习 C"
+                "headline": "学习 C"
             },
             "start_date": {
                 "year": "2009",
@@ -146,7 +152,7 @@
         },
         {
             "text": {
-                "text": "开发 J2ME 游戏《小鸡快跑》"
+                "headline": "开发 J2ME 游戏《小鸡快跑》"
             },
             "start_date": {
                 "year": "2008",
@@ -155,7 +161,7 @@
         },
         {
             "text": {
-                "text": "自学 Java"
+                "headline": "自学 Java"
             },
             "start_date": {
                 "year": "2007",
@@ -164,7 +170,7 @@
         },
         {
             "text": {
-                "text": "大学入学"
+                "headline": "大学入学"
             },
             "start_date": {
                 "year": "2007",
@@ -175,7 +181,7 @@
     "title": {
         "text": {
             "headline": "诗酒趁年华",
-            "text": "我的时间轴"
+            "headline": "我的时间轴"
         }
     }
 }

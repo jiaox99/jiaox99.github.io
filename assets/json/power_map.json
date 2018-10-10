@@ -22,35 +22,40 @@
                         0,
                         0
                     ],
-                    "pointRadius": 0
+                    "backgroundColor": "rgba(0, 255, 255, 0.1)",
+                    "borderColor": "rgba(0, 255, 255, 0.7)",
+                    "pointBackgroundColor": "rgba(0, 255, 255, 1"
                 },
                 {
                     "label": "当前",
                     "data": [
-                        1,
-                        3,
                         2,
-                        4,
+                        2,
+                        4.5,
                         3,
-                        1,
-                        1
+                        3,
+                        3,
+                        2
                     ],
-                    "backgroundColor": "rgba(255, 0, 0, 0.1)",
-					"borderColor": "rgba(255, 0, 0, 0.7)",
-					"pointBackgroundColor": "rgba(255, 0, 0, 1"
+                    "backgroundColor": "rgba(0, 255, 0, 0.1)",
+					"borderColor": "rgba(0, 255, 0, 0.7)",
+					"pointBackgroundColor": "rgba(0, 255, 0, 1"
 
                 },
                 {
                     "label": "年度目标",
                     "data": [
-                        2,
-                        4,
                         3,
-                        4,
-                        4,
-                        2,
-                        2
-                    ]
+                        3,
+                        4.5,
+                        3.5,
+                        3,
+                        3.5,
+                        2.5
+                    ],
+                    "backgroundColor": "rgba(255, 0, 0, 0.1)",
+					"borderColor": "rgba(255, 0, 0, 0.7)",
+					"pointBackgroundColor": "rgba(255, 0, 0, 1"
                 },
                 {
                     "label": "最大",
@@ -63,6 +68,9 @@
                         5,
                         5
                     ],
+                    "backgroundColor": "rgba(255, 255, 255, 0.1)",
+					"borderColor": "rgba(255, 255, 255, 0.7)",
+					"pointBackgroundColor": "rgba(255, 255, 255, 1",
                     "pointRadius": 0
                 }
             ]
@@ -74,7 +82,7 @@
     "engineAndFramework": {
         "data": {
             "labels": [
-                "UE4",
+                ["UE4", ""],
                 "Unity3D",
                 "ScaleForm",
                 "Cocos2d",
@@ -90,27 +98,35 @@
                         0,
                         0
                     ],
-                    "pointRadius": 0
+                    "backgroundColor": "rgba(0, 255, 255, 0.1)",
+                    "borderColor": "rgba(0, 255, 255, 0.7)",
+                    "pointBackgroundColor": "rgba(0, 255, 255, 1"
                 },
                 {
                     "label": "当前",
                     "data": [
-                        2,
+                        3,
+                        3,
                         3,
                         2,
-                        4,
-                        1
-                    ]
+                        2
+                    ],
+                    "backgroundColor": "rgba(0, 255, 0, 0.1)",
+					"borderColor": "rgba(0, 255, 0, 0.7)",
+					"pointBackgroundColor": "rgba(0, 255, 0, 1"
                 },
                 {
                     "label": "年度目标",
                     "data": [
+                        3.5,
                         3,
-                        4,
                         3,
-                        4,
+                        2,
                         2
-                    ]
+                    ],
+                    "backgroundColor": "rgba(255, 0, 0, 0.1)",
+					"borderColor": "rgba(255, 0, 0, 0.7)",
+					"pointBackgroundColor": "rgba(255, 0, 0, 1"
                 },
                 {
                     "label": "最大",
@@ -121,6 +137,9 @@
                         5,
                         5
                     ],
+                    "backgroundColor": "rgba(255, 255, 255, 0.1)",
+					"borderColor": "rgba(255, 255, 255, 0.7)",
+					"pointBackgroundColor": "rgba(255, 255, 255, 1",
                     "pointRadius": 0
                 }
             ]
@@ -132,11 +151,12 @@
     "theory": {
         "data": {
             "labels": [
-                "设计模式",
+                ["设计模式", ""],
                 "OpenGL",
                 "机器学习",
                 "游戏数学",
-                "游戏物理"
+                "游戏物理",
+                "数据结构与算法"
             ],
             "datasets": [
                 {
@@ -146,29 +166,40 @@
                         0,
                         0,
                         0,
+                        0,
                         0
                     ],
-                    "pointRadius": 0
+                    "backgroundColor": "rgba(0, 255, 255, 0.1)",
+                    "borderColor": "rgba(0, 255, 255, 0.7)",
+                    "pointBackgroundColor": "rgba(0, 255, 255, 1"
                 },
                 {
                     "label": "当前",
                     "data": [
-                        2,
                         3,
                         2,
-                        4,
-                        1
-                    ]
+                        2,
+                        2,
+                        2,
+                        2
+                    ],
+                    "backgroundColor": "rgba(0, 255, 0, 0.1)",
+					"borderColor": "rgba(0, 255, 0, 0.7)",
+					"pointBackgroundColor": "rgba(0, 255, 0, 1"
                 },
                 {
                     "label": "年度目标",
                     "data": [
                         3,
-                        4,
+                        2.5,
                         3,
-                        4,
-                        2
-                    ]
+                        2.5,
+                        2,
+                        3
+                    ],
+                    "backgroundColor": "rgba(255, 0, 0, 0.1)",
+					"borderColor": "rgba(255, 0, 0, 0.7)",
+					"pointBackgroundColor": "rgba(255, 0, 0, 1"
                 },
                 {
                     "label": "最大",
@@ -177,8 +208,12 @@
                         5,
                         5,
                         5,
+                        5,
                         5
                     ],
+                    "backgroundColor": "rgba(255, 255, 255, 0.1)",
+					"borderColor": "rgba(255, 255, 255, 0.7)",
+					"pointBackgroundColor": "rgba(255, 255, 255, 1",
                     "pointRadius": 0
                 }
             ]

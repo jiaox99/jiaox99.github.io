@@ -1,12 +1,13 @@
 ---
 layout: default
 ---
+<h1>我的技术时间轴</h1>
+<br>
 <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
 <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 <div id='timeline-embed' style="width: 100%; height: 600px; margin: 0 auto"></div>
 <script type="text/javascript">
     var options = {
-        // width: 900
     };
     window.timeline = new TL.Timeline('timeline-embed', '{{ site.url }}/assets/json/time_line.json', options);
 </script>
